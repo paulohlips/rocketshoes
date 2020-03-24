@@ -1,68 +1,60 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+<h1 align="center">
+<br>
+RocketShoes
+</h1>
 
-In the project directory, you can run:
+<p align="center">Online shoes store empowered by ReactJS :shoe:</p>
 
-### `yarn start`
+</p>
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+[//]: # (Add your gifs/images here:)
+<div>
+  <img src="shoes.gif" alt="demo">
+</div>
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+<hr />
 
-### `yarn test`
+## Tools
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+[//]: # "Add the features of your project here:"
 
-### `yarn build`
+This app features was developed with some of latest tools and practices in web development!
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- ⚛️ **ReactJS** — A JavaScript lib that provides a way to create web apps
+- :nail_care: **StyledComponents** — One of the new ways to use CSS in modern JavaScript.
+- :truck: **API Integration** — Axios, a JS lib, used to handle HTTP requests/responses of  third party API.
+- :handbag: **Redux** — A predictable state container for JavaScript apps.
+- :arrows_counterclockwise:**Redux-Saga** —  A redux library that aims to make application side effects.
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+## Getting started
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Clone repo:
 
-### `yarn eject`
+```
+$ git clone https://github.com/paulohlips/rocketshoes
+```
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+Inside of projects folder, install all dependencies:
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+```
+$ yarn (or npm install)
+```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+Run json-server (fake API) on port 3333:
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+```
+$ json-server server.json -p 3333 -w
+```
 
-## Learn More
+To run the front-end:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+```
+$ yarn start (or npm start)
+```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Project will be running on http://localhost:3000
 
-### Code Splitting
+## License
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `yarn build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+This project is licensed under the MIT License - see the [LICENSE](https://opensource.org/licenses/MIT) page for details.
