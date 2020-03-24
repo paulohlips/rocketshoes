@@ -9,8 +9,8 @@ RocketShoes
 </p>
 
 [//]: # (Add your gifs/images here:)
-<div>
-  <img src="shoes.gif" alt="demo" align="center">
+<div align="center">
+  <img src="shoes.gif" alt="demo" >
 </div>
 
 <hr />
