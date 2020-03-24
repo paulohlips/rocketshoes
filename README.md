@@ -10,7 +10,7 @@ RocketShoes
 
 [//]: # (Add your gifs/images here:)
 <div>
-  <img src="shoes.gif" alt="demo">
+  <img src="shoes.gif" alt="demo" align="center">
 </div>
 
 <hr />
